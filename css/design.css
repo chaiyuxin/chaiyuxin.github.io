@@ -1,0 +1,60 @@
+body {
+    color: white;
+}
+
+#menu {
+    z-index: 70;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 14px;
+}
+
+ul {
+    list-style: none;
+    background: black;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+    width: 15%;
+    text-align: center;
+}
+
+li a {
+    color: white;
+    font-size: 16px;
+    font-family: fantasy;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+}
+
+.about-me-pic {
+    width: 200px;
+    float:left;
+    margin-right: 5px;
+}
+
+li a:focus, li a:hover {
+    color: white;
+    text-decoration: none
+}
+
+h1 {
+    padding-left: 80px;
+    font-family: fantasy;
+}
+
+#about-me {
+    height: 80%;
+}
+
+#about-me p {
+    padding-left: 100px;
+    font-family: serif;
+    font-size: 18px;
+}
