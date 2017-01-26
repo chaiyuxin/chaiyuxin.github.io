@@ -139,3 +139,9 @@ body {
   -webkit-transform: translate3d(0,0,0);
   transform: translate3d(0,0,0);
 }
+
+@media screen and (max-width: 760px) {
+    .tabs-left>li {
+        font-size: 12px;
+    }
+}
