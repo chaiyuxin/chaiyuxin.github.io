@@ -13,7 +13,6 @@
     <title>Blog Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="/css/jquery.fullPage.css">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/design.css">
     <!-- Custom styles for this template
@@ -27,61 +26,166 @@
 </head>
 
 <body>
-    <ul id="menu">
-    <li data-menuanchor="aboutMe" class="active">
-      <a href="#aboutMe">About me</a>
-    </li>
-    <li data-menuanchor="myWorks">
-      <a href="#myWorks">My works</a>
-    </li>
-    <li data-menuanchor="portfolio">
-      <a href="#portfolio">My porftolio</a>
-    </li>
-    <li data-menuanchor="contactMe">
-      <a href="#contactMe">Contact me</a>
-    </li>
-</ul>
-
-
-<div id="fullpage">
-    <div class="section" data-anchor="aboutMe">
-      <div id="about-me" class="container-fluid">
-        <h1>About me</h1>
-        <p><img src="../img/chai.jpg" class="about-me-pic"/><span class="aboutmetext">
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu erat ut metus pharetra porttitor. Proin cursus sodales orci, id semper risus suscipit eget. Duis ut mauris a eros consequat tempus id quis augue. Vivamus arcu neque, ultricies non lorem quis, facilisis venenatis dui. Pellentesque non ligula enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla a auctor felis. Integer pharetra sem eget nunc sollicitudin, et eleifend erat pellentesque. Integer eget magna nec risus lobortis rutrum ut quis nisi. Morbi tempor condimentum rhoncus.<br /><br />
-
-Vivamus sit amet elit sed elit volutpat ultricies. Aliquam sollicitudin felis a nibh sagittis mattis. Duis facilisis, massa eu ultricies mattis, magna magna imperdiet purus, vitae laoreet eros magna eu purus. Maecenas felis ante, sagittis nec blandit ut, lobortis feugiat massa. Pellentesque ac convallis ligula. Ut et enim malesuada, bibendum dui in, tempor libero. Morbi justo eros, dapibus id urna nec, sodales sagittis est. Aenean et tempus lorem. <br /> <br />
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eu erat ut metus pharetra porttitor. Proin cursus sodales orci, id semper risus suscipit eget. Duis ut mauris a eros consequat tempus id quis augue. Vivamus arcu neque, ultricies non lorem quis, facilisis venenatis dui. Pellentesque non ligula enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla a auctor felis. Integer pharetra sem eget nunc sollicitudin, et eleifend erat pellentesque. Integer eget magna nec risus lobortis rutrum ut quis nisi. Morbi tempor condimentum rhoncus.<br /><br />
-
-Vivamus sit amet elit sed elit volutpat ultricies. Aliquam sollicitudin felis a nibh sagittis mattis. Duis facilisis, massa eu ultricies mattis, magna magna imperdiet purus, vitae laoreet eros magna eu purus. Maecenas felis ante, sagittis nec blandit ut, lobortis feugiat massa. Pellentesque ac convallis ligula. Ut et enim malesuada, bibendum dui in, tempor libero. Morbi justo eros, dapibus id urna nec, sodales sagittis est. Aenean et tempus lorem. <br /> <br />
-
-        </span></p>
-      </div>
-    </div>
-    <div class="section" data-anchor="myWorks">
-      <div class="container-fluid">
-        <h1>Some section</h1>
-      </div>
-    </div>
-    <div class="section" data-anchor="portfolio">
-      <div class="container-fluid">
-        <h1>Some section</h1>
-      </div>
-    </div>
-    <div class="section" data-anchor="contactMe">
-      <div class="container-fluid">
-        <h1>Some section</h1>
-      </div>
-    </div>
+    <div id="header">
+  <div id="languages" class="container-fluid">
+    <p>E / C</p>
+  </div>
+  <div id="menu" class="container-fluid">
+    <ul class="nav nav-tabs row">
+      <li class="active col-md-3"><a data-toggle="tab" href="#home">Home</a></li>
+      <li class="col-md-3"><a data-toggle="tab" href="#work">Work</a></li>
+      <li class="col-md-3"><a data-toggle="tab" href="#aboutMe">About Me</a></li>
+      <li class="col-md-3"><a data-toggle="tab" href="#contact">Contact</a></li>
+    </ul>
+  </div>
 </div>
 
+<div class="tab-content">
+    <div id="home" class="tab-pane fade in active container-fluid">
+</div>
+    <div id="work" class="tab-pane fade container-fluid">
+  <h3>Work</h3>
+  <div  class="row">
+    <div class="col-xs-3"> <!-- required for floating -->
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs tabs-left sideways">
+        <li class="active"><a href="#all" data-toggle="tab">All</a></li>
+        <li><a href="#logo" data-toggle="tab">Logo</a></li>
+        <li><a href="#vi" data-toggle="tab">VI</a></li>
+      </ul>
+    </div>
 
+
+    <div class="col-xs-9">
+      <!-- Tab panes -->
+      <div class="tab-content container-fluid">
+        <div class="tab-pane active row" id="all">
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/2.jpg" />
+                <div class="overlay">
+                    <h2>Second creation</h2>
+                    <p>Bedrock—an charitable foundation salon at Shanghai for  support company’s other activities.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/3.png" />
+                <div class="overlay">
+                    <h2>Thrid creation</h2>
+                    <p>Marking—a salon of various desingers. Fully free envorinment of creation but also under salon’s protection.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/4.jpg" />
+                <div class="overlay">
+                    <h2>Fourth creation</h2>
+                    <p>Daxing volunteer service federation—a volunteering organization at Daxing distinct of Beijing.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/5.jpg" />
+                <div class="overlay">
+                    <h2>Fifth creation</h2>
+                    <p>Engineering Training Center—the printing house of Beijing institute of graphic communication. There are perfect printing process and various printing material.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/6.jpg" />
+                <div class="overlay">
+                    <h2>Sixth creation</h2>
+                    <p>Bedrock—an charitable foundation salon at Shanghai for  support company’s other activities.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+              <div class="hovereffect">
+                <img class="thumbnail_creation" src="../img/1.png" />
+                <div class="overlay">
+                    <h2>First creation</h2>
+                    <p>Heng An International－the biggest enterprises in China which producting sanitary napkins and baby diaper  operating the fields of maternal and child health supplies and household paper.</p>
+                </div>
+              </div>
+            </div>
+
+
+          
+        </div>
+        <div class="tab-pane" id="logo">Logo</div>
+        <div class="tab-pane" id="vi">VI</div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+
+    <div id="aboutMe" class="tab-pane fade container-fluid">
+  <h3>About Me</h3>
+  <div  class="col-sm-6">
+    <div class="col-xs-3"> <!-- required for floating -->
+      <!-- Nav tabs -->
+      <ul class="nav nav-tabs tabs-left sideways">
+        <li class="active"><a href="#experience" data-toggle="tab">Experience</a></li>
+        <li><a href="#rewards" data-toggle="tab">Rewards</a></li>
+        <li><a href="#skills" data-toggle="tab">Skills</a></li>
+      </ul>
+    </div>
+
+
+    <div class="col-xs-9">
+      <!-- Tab panes -->
+      <div class="tab-content">
+        <div class="tab-pane active" id="experience">Experience</div>
+        <div class="tab-pane" id="rewards">Rewards</div>
+        <div class="tab-pane" id="skills">Skills</div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+  </div>
+</div>
+    <div id="contact" class="tab-pane fade container-fluid">
+  <h3>Contact</h3>
+  <p>Some content in menu 2.</p>
+</div>
+</div>
     <!-- After footer scripts -->
     <script src="/js/jquery-3.1.1.min.js"></script>
 <script src="/js/jquery.easings.min.js"></script>
-<script src="/js/scrolloverflow.min.js"></script>
-<script src="/js/jquery.fullPage.min.js"></script>
 <script src="/js/bootstrap.min.js"></script>
 <script src="/js/onepage.js"></script>
 </body>
