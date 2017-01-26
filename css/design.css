@@ -1,5 +1,6 @@
 ul li a {
     text-align: center;
+    color: white;
 }
 
 #languages p {
@@ -35,6 +36,7 @@ body {
 }
 .tabs-left>li {
   margin-right: -1px;
+  font-size: 24px;
 }
 .tabs-left>li.active>a,
 .tabs-left>li.active>a:hover,
