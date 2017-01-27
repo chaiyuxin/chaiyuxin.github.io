@@ -33,7 +33,13 @@ body {
 
 .inherit-height {
     height: inherit;
+    overflow: hidden;
+}
+
+.row .inherit-height {
     overflow: scroll;
+    right: -30px;
+    padding-right: 30px;
 }
 
 .tabs-left {
