@@ -31,7 +31,7 @@ body {
     width: 100%;
 }
 
-.inherit-height {
+/*.inherit-height {
     height: inherit;
     overflow: hidden;
 }
@@ -40,7 +40,7 @@ body {
     overflow: scroll;
     right: -30px;
     padding-right: 30px;
-}
+}*/
 
 .tabs-left {
   border-bottom: none;
